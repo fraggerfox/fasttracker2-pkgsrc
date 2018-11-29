@@ -29,7 +29,7 @@ NOTE: If you are using pkgsrc in a non NetBSD system, replace `make` with
 Credits
 -------
 
-* The Dual-Screen PDF Viewer was originally written by [Olav Sørensen][3]
+* The Fasttracker II clone was originally written by [Olav Sørensen][2]
 
 License
 -------
