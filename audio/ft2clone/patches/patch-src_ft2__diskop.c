@@ -1,7 +1,7 @@
 $NetBSD$
 
-Added sys/device.h to prevent unknown type name error from the included
-fts.h.
+Added <sys/types.h> / <sys/stat.h> to prevent "unknown type name"
+(dev_t, ino_t and nlink_t) error from the included <fts.h>.
 
 --- src/ft2_diskop.c.orig	2018-11-23 13:36:02.000000000 +0000
 +++ src/ft2_diskop.c
