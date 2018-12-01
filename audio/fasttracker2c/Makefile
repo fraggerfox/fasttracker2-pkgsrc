@@ -15,8 +15,6 @@ LICENSE=	modified-bsd AND cc-by-nc-sa-v3.0-license
 WRKSRC=		${WRKDIR}/ft2-clone-code
 USE_LANGUAGES=	c c++
 
-LIBS+=		${BUILDLINK_LDADD.iconv}
-CFLAGS+=	-g
 LDFLAGS+=	-lSDL2 -lpthread -lstdc++ -lm
 
 INSTALLATION_DIRS+=	bin share/pixmaps
