@@ -16,8 +16,8 @@ WRKSRC=		${WRKDIR}/ft2-clone-code
 USE_LANGUAGES=	c c++
 
 LIBS+=		${BUILDLINK_LDADD.iconv}
-CXXFLAGS+=	-D__LINUX_ALSA__
-LDFLAGS+=	-lSDL2 -lpthread -lstdc++ -lm -liconv
+CFLAGS+=	-g
+LDFLAGS+=	-lSDL2 -lpthread -lstdc++ -lm
 
 INSTALLATION_DIRS+=	bin share/pixmaps
 
@@ -33,5 +33,4 @@ do-install:
 		${DESTDIR}${PREFIX}/share/pixmaps
 
 .include "../../devel/SDL2/buildlink3.mk"
-.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
