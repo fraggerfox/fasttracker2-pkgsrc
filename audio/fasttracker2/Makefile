@@ -4,13 +4,14 @@ DISTNAME=	ft2clone-${DISTVERSION}-code
 PKGNAME=	fasttracker2-${DISTVERSION}
 DISTVERSION=	b120
 CATEGORIES=	audio
-MASTER_SITES=	https://16-bits.org/
+MASTER_SITES=	https://16-bits.org/ \
+		${MASTER_SITE_FREEBSD_LOCAL:=ehaupt/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	fox@NetBSD.org
 HOMEPAGE=	https://16-bits.org/
 COMMENT=	Portable Fasttracker II clone in C using SDL 2
-LICENSE=	modified-bsd AND cc-by-nc-sa-v3.0-license
+LICENSE=	modified-bsd AND cc-by-nc-sa-v4.0-license
 
 WRKSRC=		${WRKDIR}/ft2-clone-code
 USE_LANGUAGES=	c c++
