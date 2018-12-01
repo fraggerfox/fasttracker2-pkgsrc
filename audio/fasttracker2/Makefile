@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	ft2clone-${DISTVERSION}-code
-PKGNAME=	fasttracker2c-${DISTVERSION}
+PKGNAME=	fasttracker2-${DISTVERSION}
 DISTVERSION=	b120
 CATEGORIES=	audio
 MASTER_SITES=	https://16-bits.org/
