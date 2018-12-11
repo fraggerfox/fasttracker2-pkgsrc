@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-src_ft2__unicode.c,v 1.1 2018/12/01 18:20:09 fox Exp $
 
 1. Added a type cast to iconv(3) calls to match the prototypes defined
 in NetBSD's iconv.h.

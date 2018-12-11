@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-src_ft2__diskop.c,v 1.1 2018/12/01 18:20:09 fox Exp $
 
 Added <sys/types.h> / <sys/stat.h> to prevent "unknown type name"
 (dev_t, ino_t and nlink_t) error from the included <fts.h>.
