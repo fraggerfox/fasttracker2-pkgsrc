@@ -1,7 +1,7 @@
 fasttracker2-pkgsrc
 ===================
 
-NetBSD pkgsrc script for Fasttracker II clone.
+NetBSD [pkgsrc][3] script for Fasttracker II clone.
 
 You can find Fasttracker II clone [here][1]
 
@@ -40,4 +40,4 @@ BSD 2-clause. See LICENSE.
 
 [1]: https://16-bits.org/ft2.php
 [2]: https://twitter.com/8bitbubsy
-
+[3]: http://pkgsrc.se/audio/fasttracker2
