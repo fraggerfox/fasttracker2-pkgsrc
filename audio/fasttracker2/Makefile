@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.3 2018/12/19 06:55:42 wiz Exp $
+# $NetBSD: Makefile,v 1.4 2019/01/05 13:45:01 fox Exp $
 
 DISTNAME=	ft2clone-${DISTVERSION}-code
 PKGNAME=	fasttracker2-${DISTVERSION:C/b/2./}
