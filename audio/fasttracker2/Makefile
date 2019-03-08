@@ -2,7 +2,7 @@
 
 DISTNAME=	ft2clone-${DISTVERSION}-code
 PKGNAME=	fasttracker2-${DISTVERSION:C/b/2./}
-DISTVERSION=	b138
+DISTVERSION=	b139
 CATEGORIES=	audio
 MASTER_SITES=	https://16-bits.org/ \
 		${MASTER_SITE_FREEBSD_LOCAL:=ehaupt/}
