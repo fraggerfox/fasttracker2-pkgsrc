@@ -1,7 +1,6 @@
-# $NetBSD: Makefile,v 1.86 2021/09/08 21:04:54 nia Exp $
+# $NetBSD: Makefile,v 1.90 2022/01/13 04:24:00 fox Exp $
 
-DISTNAME=	fasttracker2-1.47
-PKGREVISION=	1
+DISTNAME=	fasttracker2-1.50
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_GITHUB:=8bitbubsy/}
 GITHUB_PROJECT=	ft2-clone
@@ -31,7 +30,8 @@ INSTALLATION_DIRS+=	share/icons/hicolor/${s}x${s}/apps
 
 pre-configure:
 .for s in ${ICON_SIZES}
-	cd ${WRKSRC} && ${PREFIX}/bin/icotool -w ${s} -h ${s} -x -o ${s}.png \
+	cd ${WRKSRC} && ${PREFIX}/bin/icotool \
+	    -w ${s} -h ${s} -x -o ${s}.png \
 	    src/gfxdata/icon/ft2-clone.ico
 .endfor
 
